@@ -62,7 +62,16 @@ All logic is implemented in **one Python file** and **executed hourly** on AWS.
 
 ## 📁 File Structure
 
-binance-futures-trading-bot/ ├── main.py # Full auto-trading logic ├── config_template.py # API key template (excluded via .gitignore) ├── requirements.txt # Required Python packages ├── crontab.txt # Crontab schedule example ├── docs/ │ └── architecture.png # System architecture diagram ├── log/ │ └── autotrading.log # Logging (excluded via .gitignore) └── README.md # You're reading this!
+binance-futures-trading-bot/ 
+├── main.py # Full auto-trading logic 
+├── config_template.py # API key template (excluded via .gitignore) 
+├── requirements.txt # Required Python packages 
+├── crontab.txt # Crontab schedule example 
+├── docs/ 
+│ └── architecture.png # System architecture diagram 
+├── log/ 
+│ └── autotrading.log # Logging (excluded via .gitignore) 
+└── README.md # You're reading this!
 
 
 ---
